@@ -1,0 +1,4 @@
+principal,principal_type,role,scope,risk_level,reason
+user@example.com,User,Owner,/subscriptions/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx,High,Privileged role; Subscription-wide assignment; Duplicate assignment
+user@example.com,User,User Access Administrator,/,High,Privileged role; Root scope assignment
+sp-example,ServicePrincipal,Contributor,/subscriptions/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/resourceGroups/example-rg,Review,Privileged role
