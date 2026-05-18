@@ -1,0 +1,18 @@
+Azure RBAC Over-Permission Audit
+==================================================
+Principal:      user@example.com
+Type:           User
+Role:           Owner
+Scope:          /subscriptions/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+Risk:           High
+Reason:         Privileged role; Subscription-wide assignment; Duplicate assignment
+--------------------------------------------------
+Principal:      user@example.com
+Type:           User
+Role:           User Access Administrator
+Scope:          /
+Risk:           High
+Reason:         Privileged role; Root scope assignment
+--------------------------------------------------
+
+Report written to findings.csv
